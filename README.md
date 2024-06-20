@@ -1,6 +1,7 @@
 # Emotion-based Music Recommendations
 
 Welcome to the Emo-Music  app! This app detects your mood based on the text you enter and recommends music accordingly.
+This Streamlit web application recommends YouTube music videos based on the user's input emotions. It leverages natural language processing (NLP) to detect emotions from text input and utilizes the YouTube Data API to fetch and display relevant music videos. Users can select their preferred language for recommendations and sort the suggested songs based on criteria like relevance, view count, rating, or date.
 
 ## Features
 
@@ -9,6 +10,11 @@ Welcome to the Emo-Music  app! This app detects your mood based on the text you 
 - **Emotion-based Music**: Get song recommendations that match your current mood or help uplift your spirits.
 - **Interactive UI**: Select and play recommended YouTube videos directly within the app.
 
+## Techstacks
+
+- Streamlit: Framework for building interactive web applications with Python.
+- Google Cloud Platform: Utilizes the YouTube Data API to fetch video recommendations.
+- Transformers Library (Hugging Face): Uses pre-trained models for emotion detection in text inputs.
 ## How to Use
 
 1. **Enter Your Mood**: In the text box, type how you are feeling today.
