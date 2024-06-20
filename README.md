@@ -36,7 +36,14 @@ This guide will help you set up and use the YouTube Data API to fetch YouTube vi
    - Navigate to **APIs & Services > Library**.
    - Search for **YouTube Data API v3** and click on it.
    - Click **Enable**.
-#### The documentation is available (here)[https://developers.google.com/youtube/v3/docs]
+## Additional Resources
+- [Google Cloud Console](https://console.cloud.google.com/)
+- [YouTube Data API v3 Documentation](https://developers.google.com/youtube/v3/docs)
+- [Google API Python Client Documentation](https://github.com/googleapis/google-api-python-client)
+
+
+By following these steps, you should be able to set up and use the YouTube Data API to get video recommendations based on user input in your Streamlit app.
+
 ## Step 2: Obtain API Credentials
 
 1. **Create API Key**:
