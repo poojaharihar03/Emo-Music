@@ -2,7 +2,7 @@ import googleapiclient.discovery
 from transformers import pipeline, AutoModelForSequenceClassification, AutoTokenizer
 import re
 # YouTube API credentials
-api_key = 'Your- API- Key'
+API_KEY = os.getenv('YOUTUBE_API_KEY')
 
 model_name = 'bhadresh-savani/bert-base-go-emotion'
 model = AutoModelForSequenceClassification.from_pretrained(model_name, from_tf=False)
