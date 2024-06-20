@@ -1,7 +1,7 @@
-streamlit 
-google-api-python-client 
-transformers
-torch 
-torchvision 
-torchaudio
-
+streamlit==1.32.2
+transformers==4.39.2
+sentence-transformers==2.6.1
+google-api-python-client==2.134.0
+torch==2.2.2
+torchvision==0.18.1
+torchaudio==2.3.1
